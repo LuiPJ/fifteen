@@ -6,3 +6,4 @@ if (itemNodes.length !== 16) {
   throw new Error(`Должно быть ровно ${countitems}  items in HTML`);
 }
 
+let matrix = getMatrix(itemNodes);
