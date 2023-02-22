@@ -1,12 +1,12 @@
 {
-	"name": "fifteen_start",
+	"name": "fifteen",
 	"version": "0.0.1",
-	"description": "fifteen_start",
+	"description": "fifteen",
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:liveldi/lab.webelart.git"
+		"url": "https://github.com/LuiPJ/fifteen"
 	},
-	"author": "Elena Litvinova",
+	"author": "Nikita Kanaev",
 	"license": "ISC",
 	"engines": {
 		"node": ">=10",
