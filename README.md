@@ -1,6 +1,6 @@
 ## Установка и запуск проекта
 ![Alt Text](./screenshot/recording.gif)
-Как запустить проект —
+Как запустить проект:
 
 ```
 npm install
