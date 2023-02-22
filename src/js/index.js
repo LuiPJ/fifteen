@@ -139,11 +139,13 @@ function swap(coord1, coord2, matrix) {
 
   if (isWon(matrix)) {
     addWonClass();
+    setTimeout(() => {
     alert('You won !')
+    }, 500)
   }
 }
 
-const winFlatArray = new Array(16).fill.map((_item, i) => i + 1);
+const winFlatArray = new Array(16).fill(0).map((_item, i) => i + 1);
 function isWon(matrix) {
   const flatMatrix = matrix.flat();
   for (let i = 0; i < winFlatArray.length; i++) {
