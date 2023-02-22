@@ -141,7 +141,7 @@ function swap(coord1, coord2, matrix) {
     addWonClass();
     setTimeout(() => {
     alert('You won !')
-    }, 500)
+    }, 300)
   }
 }
 
@@ -157,13 +157,12 @@ function isWon(matrix) {
 }
 
 const wonClass = 'fifteenWon';
-
-function addWonClass() {
+function addWonClass() { 
   setTimeout(() => {
     containerNode.classList.add(wonClass);
 
     setTimeout(() => {
       containerNode.classList.remove(wonClass);
-    }, 1500);
+    },2500);
   }, 500);
 }
